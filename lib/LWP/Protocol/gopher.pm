@@ -118,7 +118,7 @@ EOT
     # potential request headers are just ignored
 
     # Ok, lets make the request
-    my $socket = IO::Socket::INET->new(PeerAddr => $host,
+    my $socket = IO::Socket::IP->new(PeerAddr => $host,
 				       PeerPort => $port,
 				       LocalAddr => $self->{ua}{local_address},
 				       Proto    => 'tcp',
