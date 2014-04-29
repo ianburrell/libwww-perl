@@ -58,6 +58,7 @@ WriteMakefile(
         'HTTP::Status' => 6,
         'IO::Select' => 0,
         'IO::Socket' => 0,
+        'IO::Socket::IP' => 0,
         'LWP::MediaTypes' => 6,
         'MIME::Base64' => "2.1",
         'Net::FTP' => "2.58",
